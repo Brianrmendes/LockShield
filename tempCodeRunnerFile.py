@@ -1,0 +1,1 @@
+label.place(x=20,y=90)
