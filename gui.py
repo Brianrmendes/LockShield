@@ -68,10 +68,10 @@ def save_jpg():
     messagebox.showinfo("Info","The image has been saved")
     secret.save("Generated_Image.jpg")
 
-def Generate_key():
-    # key is generated
-    key = Fernet.generate_key()
-    label.configure(text=key)
+# def Generate_key():
+#     # key is generated
+#     key = Fernet.generate_key()
+#     label.configure(text=key)
 
 def decrypt():
     password=code.get()
