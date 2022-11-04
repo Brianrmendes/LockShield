@@ -20,7 +20,9 @@ the account gets hacked, the data remains secured
 Objectives
 
 • To develop a cloud storage application
+
 • To develop a client-side application for encrypting data
+
 • To provide ease of access to implement image steganography
 
 The proposed system of our project which contains various modules. The user first uses lockshield (client-side application) to generate a random image. The user then writes the data which he/she wants to hide (for eg. Credit card details). Then the user can click hide data, the image steganography algorithm uses LSB approach to hide the text in the image using its least significant bits, so that it doesn’t distorts the image. Once the image has been encrypted the user can save it on his/her local machine.
